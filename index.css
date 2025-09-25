@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+#header{
+    background-image: url('./media/flat-lay-desk-dark-concept-with-copy-space.jpg');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-position: center;
+}
+#intro{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #777676;
+    opacity: 80%;
+}
+#nav{
+    margin-left: 50px;
+}
+h3{
+    color: #fff;
+    font-size: 25px;
+    font-style: italic;
+    cursor: pointer;
+    position: relative;
+}
+h3 span{
+    color: #17e9d7;
+}
+h3::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px; 
+    width: 0;
+    height: 3px; 
+    background: #08e5f5; 
+    transition: 0.5s;
+}
+h3:hover::after{
+    width: 100%;
+}
+#others{
+    margin-right: 70px;
+}
+#others a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 35px;
+    position: relative;
+}
+#others a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px; 
+    width: 0;
+    height: 3px; 
+    background: #08e5f5; 
+    transition: 0.5s;
+}
+#others a:hover::after{
+    width: 100%;    
+}
+#bio{
+    display: flex;
+    align-items: center;
+
+}
+#me{
+    margin-top: 200px;
+    margin-left: 60px;
+}
+#me p{
+    color: #fff;
+    font-size: 43px;
+}
+.text{
+    color: #0c8d7c;
+    font-weight: 800;
+}
+#about{
+    background: url('./media/top-view-desk-dark-concept-with-copy-space.jpg');
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-position: center;
+}
+#sm{
+    margin-left: 280px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+#sm img{
+    height: 50vh;
+}
+#info{
+    margin-left: 10px;
+}
+#info h4{
+    color: #fff;
+    font-size: 20px;
+    text-decoration:underline;
+}
+#info p{
+    color: #fff;
+    margin-right: 160px;
+}
