@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+#header{
+    background: #000;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-position: center;
+}
+#intro{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #777676;
+    opacity: 80%;
+}
+#nav{
+    margin-left: 50px;
+}
+h3{
+    color: #fff;
+    font-size: 25px;
+    font-style: italic;
+    cursor: pointer;
+    position: relative;
+}
+h3 span{
+    color: #17e9d7;
+}
+h3::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px; 
+    width: 0;
+    height: 3px; 
+    background: #08e5f5; 
+    transition: 0.5s;
+}
+h3:hover::after{
+    width: 100%;
+}
+#others{
+    margin-right: 70px;
+}
+#others a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 35px;
+    position: relative;
+}
+#others a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px; 
+    width: 0;
+    height: 3px; 
+    background: #08e5f5; 
+    transition: 0.5s;
+}
+#others a:hover::after{
+    width: 100%;    
+}
+#bio{
+    display: flex;
+    justify-content: center;
+
+}
+#me{
+    margin-top: 200px;
+    margin-left: 60px;
+}
+#me p{
+    color: #fff;
+    font-size: 43px;
+}
+.text{
+    color: #0c8d7c;
+    font-weight: 800;
+}
+#hobbies{
+    background: #000;
+    padding-top: 30px;
+    padding-right: 40px;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-position: center;
+}
+#hobbies h2{
+    margin-left: 95vh;
+    color: #fff;
+    text-decoration: underline;
+}
+#somer{
+    display: flex;
+    justify-content: center;
+}
+#container{
+    border: 1px dashed;
+    margin-top: 50px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    height: 39vh;
+    width: 39vh;
+    color: #fff;
+    background: #272727;
+    opacity: 70%;
+}
+#container img{
+    padding-top: 8px;
+    width: 50px;
+    border-radius: 2px;
+}
+#container img{
+    width: 15vh;        /* same as height */
+    height: 18vh;       /* equal width & height */
+    border-radius: 50%; /* makes it a circle */
+}
+#in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+#in h5{
+    font-size: 20px;
+}
+#in h5 a{
+    color: white;
+}
+#in p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#medias{
+    display: flex;
+    justify-content: center;
+}
+#medias a img{
+    height: 8vh;
+    width: 40px;
+    margin-left: 10px;
+}
